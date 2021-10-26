@@ -1,0 +1,16 @@
+.tarjeta-operaciones {
+  border: 1px solid red;
+  margin: 20px;
+  box-shadow: 5px 5px 0 0 0 5px;
+  width: 600px;
+  height: 600px
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fila p {
+  flex: 1;
+}

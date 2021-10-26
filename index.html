@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>69</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <h1 id="fecha"></h1>
+
+  <div class="form">
+    <form id="filtros">
+      <label>Tipo
+        <select name="tipo" id="filtro-tipo">
+          <option value="todos">Todos</option>
+          <option value="gasto">Gasto</option>
+          <option value="ganancia">Ganancia</option>
+        </select>
+    </label>
+
+    <label>Categoria
+      <select name="categoria" id="filtro-categoria">
+        <option value="todos">Todas</option>
+        <option value="salidas">Salidas</option>
+        <option value="sueldo">Sueldo</option>
+        <option value="mascotas">Mascotas</option>
+        <option value="alquiler">Alquiler</option>
+      </select>
+    </label>
+
+    <label>Fecha
+      <input type="date" id="filtro-fecha">
+    </label>
+
+    </form>
+  </div>
+
+
+
+  <div class="tarjeta-operaciones">
+    <div class="operaciones-titulo">
+      <div class="fila">
+        <p>Descripcion</p>
+        <p>Categoria</p>
+        <p>Tipo</p>
+        <p>Monto</p>
+        <p>Fecha</p>
+      </div>
+    </div>
+    <div id="operaciones"></div>
+  </div>
+
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
